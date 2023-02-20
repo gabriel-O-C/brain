@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import { Home } from "./pages/Home";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <h1 className="text-blue-500">hello world</h1>
+    <Home />
   </React.StrictMode>,
 )
